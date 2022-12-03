@@ -1,0 +1,89 @@
+.contentAttributes {
+    height: 430px;
+    width: 270px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .returnInicial{
+    font-size: 1rem;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+  }
+  
+  .pokemonAttributes{
+    background-size: 220px;
+    background-position: center;
+  }
+  
+  .displayFlex {
+    display: flex;
+    justify-content: initial;
+  }
+  
+  .displayFlex li{
+    margin-right: 10px;
+  }
+  
+  .imgPokemon {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .imgPokemon img {
+    max-width: 100%;
+    height: 100px;
+    margin: 10px 0;
+  }
+  
+  .attacks ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  
+  .attacks {
+    color: #000;
+    padding: 0.3rem 0.3rem;
+    font-size: 9.3px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  .attacks li{
+    list-style: none;
+    text-transform: lowercase;
+    background-color: rgba(255, 255, 255, 0.474);
+    padding: 0.313rem .188rem;
+    border-radius: .5rem;
+  }
+  
+  .attributes{
+    margin-bottom: 5px;
+  }
+  
+  .attributes ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.462);
+    border-radius: 10px;
+    padding: 7px 0;
+  }
+  
+  .attributes li {
+    list-style: none;
+    justify-content: space-around;
+    padding-top: 5px;
+    font-size: .9rem;
+  }
+  
+  .statsNumbers {
+    text-align: right;
+  }
